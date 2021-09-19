@@ -166,3 +166,10 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 1250px) {
+  .editPage {
+    height: 124vh;
+    flex-direction: column;
+  }
+}

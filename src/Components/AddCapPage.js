@@ -62,8 +62,8 @@ const AddCapPage = (props) => {
 
     useEffect(() => {
         const Image = new fabric.Canvas('canvas', {
-            width: 500,
-            height: 500,
+            width: 680,
+            height: 450,
             backgroundColor: "white",
             backgroundImage: props.location.state,
             selectable: true,
